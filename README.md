@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# terraform-aws-module-ec2
-A Terraform Module for ec2 Instance
-=======
 # AWS EC2 Terraform Module
 This module creates a ready-to-use AWS EC2 Instance.
 
@@ -41,4 +37,3 @@ module "ec2" {
     user_data = "${file("../../test/user_data.sh")}"
 }
 ```
->>>>>>> feat/init2
