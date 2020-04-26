@@ -34,5 +34,6 @@ module "ec2" {
                             terraform = "true"
                             managedBy = "jcbagtas"
                         }
+    user_data = "${file("../../test/user_data.sh")}"
 }
 ```
