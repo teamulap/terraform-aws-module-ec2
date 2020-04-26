@@ -30,4 +30,4 @@ override.tf.json
 *tfplan*
 terratest/test/vendor/*
 *.terraform*
-*tfstate*
+*.tfstate*
