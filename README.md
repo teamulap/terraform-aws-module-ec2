@@ -1,4 +1,7 @@
 # AWS EC2 Terraform Module
+
+[![CircleCI](https://circleci.com/gh/teamulap/terraform-aws-module-ec2/tree/master.svg?style=svg&circle-token=87e5821734e14e7eed4e1f92e8ddafd1800215ee)](https://circleci.com/gh/teamulap/terraform-aws-module-ec2/tree/master)
+
 This module creates a ready-to-use AWS EC2 Instance.
 
 ## Change Log
