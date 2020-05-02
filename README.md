@@ -25,7 +25,7 @@ module "ec2" {
     instance_set_name   = "terratest-ec2"
     associate_public_ip_address = "true"
     ssh_key_name        = "terratest-my-key"
-    ssh_public_key      = "${file("../../test/id_rsa.pub")}"
+    ssh_public_key      = file("../../test/id_rsa.pub")
     ami_id              = "ami-0f310fced6141e627"
     instance_tags       = {
                             name = "Terratest-Ec2-1"
@@ -37,6 +37,6 @@ module "ec2" {
                             terraform = "true"
                             managedBy = "jcbagtas"
                         }
-    user_data = "${file("../../test/user_data.sh")}"
+    user_data = file("../../test/user_data.sh")
 }
 ```
